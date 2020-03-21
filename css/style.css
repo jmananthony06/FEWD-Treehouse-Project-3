@@ -1,0 +1,238 @@
+* {
+    box-sizing: border-box;
+    font-family: "Karla", sans-serif;
+}
+
+header {
+    background-color: rgb(33, 48, 69);
+    text-align: center;
+    padding: 8px;
+}
+
+header h1 {
+    color: white;
+}
+
+h2 {
+    padding-top: 20px;
+}
+
+label {
+    color: rgb(66, 87, 110);
+}
+
+.S1 {
+    padding-left: 620px;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+
+.S1 p {
+    color: gray;
+}
+
+.S2,
+.wrapper {
+    text-align: center;
+    padding-left: 75px;
+    margin-bottom: 25px;
+    padding: 10px;
+}
+
+select {
+    max-width: 100%;
+}
+
+.S2 .wrapper,
+label,
+input {
+    display: block;
+    margin-bottom: 11px;
+    border-color: rgb(235, 235, 235);
+    background: white;
+    border-radius: 70px;
+}
+
+input {
+    text-align: right;
+    transition-duration: .1s;
+}
+
+input:focus {
+    text-align: left;
+    /*outline: solid 1px rgb(41, 208, 178); */
+    padding: 8px;
+}
+
+.S2 fieldset {
+    padding-top: 15px;
+    display: inline-block;
+}
+
+fieldset {
+    width: auto;
+    padding-bottom: 5px;
+    border-color: white;
+    border: white;
+}
+
+.S2 select {
+    max-width: 100%;
+    color: black;
+}
+
+form {
+    text-align: left;
+    padding-left: 100px;
+}
+
+body {
+    margin: 0px;
+}
+
+textarea {
+    max-width: 55%;
+    border: none;
+    border-radius: 20px;
+    background: rgb(212, 212, 212);
+    width: 100%;
+    margin-top: 15px;
+    display: inline-block;
+    padding-bottom: 30px;
+}
+
+.one {
+    outline: rgb(172, 172, 172) solid 1px;
+}
+
+
+/*
+.two{
+  outline: rgb(172, 172, 172) solid 1px;
+} */
+
+p.NLF {
+    padding: 20px;
+    padding-top: 30px;
+}
+
+p.P1 {
+    padding-top: 8px;
+}
+
+.t-a {
+    padding-top: 10px;
+}
+
+.copy {
+    text-align: left;
+    color: lightgray;
+    padding-left: 125px;
+    padding-top: 15px;
+}
+
+.bottom label {
+    margin-right: 12px;
+    display: inline-block;
+    margin-bottom: 12px;
+}
+
+.bottom label:last-child {
+    margin-left: 0px;
+}
+
+label {
+    width: auto;
+}
+
+.t-a {
+    margin-top: 12px;
+    margin-bottom: 24px;
+    display: inline-block;
+    padding: auto;
+    margin: auto;
+}
+
+button {
+    width: 55%;
+    border-radius: 100px;
+    padding-top: 35px;
+    padding-bottom: 55px;
+    background-color: rgb(50, 168, 168);
+    font-size: 20px;
+    text-align: center;
+    display: inline-block;
+    height: 38px;
+    color: white;
+}
+
+
+/* Next div */
+
+.center {
+    padding-left: 600px;
+}
+
+.newsletter {
+    padding-top: 20px;
+    padding-left: 70px;
+    padding-bottom: 15px;
+}
+
+.block {
+    display: inline-block;
+}
+
+.pad {
+    padding-top: 50px;
+}
+
+.contact {
+    text-align: center;
+    padding-bottom: 21px;
+    text-decoration: bolder;
+}
+
+.wrapper {
+    padding-left: 510px;
+}
+
+.newsletterformat {
+    padding-top: 75px;
+    padding-bottom: 25px;
+    padding-left: 57px;
+}
+
+legend {
+    padding-top: 32px;
+    font-size: 30px;
+}
+
+#hor {
+    padding-left: 100px;
+    padding-bottom: 15px;
+    padding-right: 100px;
+    text-align: left;
+    border-right: 100px;
+}
+
+input::placeholder {
+    padding-left: 60px;
+}
+
+::placeholder {
+    font-style: italic;
+}
+
+
+/********************
+ ***** Qureies ******
+ *******************/
+
+@media (min-width: 768px) {
+    .container,
+    .center {
+        display: inline-block;
+    }
+}
