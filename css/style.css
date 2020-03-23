@@ -1,0 +1,173 @@
+* {
+    box-sizing: border-box;
+    font-family: "Karla", sans-serif;
+}
+
+
+/***** top portion of form *****/
+
+header {
+    background-color: rgb(33, 48, 69);
+    text-align: center;
+    padding: 8px;
+    width: 100%;
+}
+
+header,
+h1,
+h2,
+p {
+    color: white;
+}
+
+h2 {
+    padding-top: 24px;
+}
+
+.one {
+    outline: rgb(172, 172, 172) solid 1px;
+    filter: blur(1px);
+}
+
+hr {
+    filter: blur(1px);
+}
+
+form {
+    display: flex;
+    margin-bottom: 25px;
+    padding: 10px;
+}
+
+.form {
+    justify-content: center;
+}
+
+#contact {
+    padding-top: 40px;
+    font-size: 30px;
+}
+
+form #contact {
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 21px;
+    text-decoration: bolder;
+}
+
+#contact label {
+    color: rgb(66, 87, 110);
+}
+
+.hor {
+    padding-bottom: 15px;
+    padding-right: 80px;
+    text-align: center;
+    border-right: 100px;
+}
+
+.S2,
+label,
+.hor {
+    display: block;
+    margin-bottom: 11px;
+    border-color: rgb(235, 235, 235);
+    background: white;
+    border-radius: 70px;
+}
+
+input {
+    transition-duration: .2s;
+}
+
+input:focus {
+    outline: solid 1px rgb(41, 208, 178);
+    padding: 8px;
+}
+
+
+/***** line break - entering second half of form *****/
+
+.two {
+    outline: rgb(172, 172, 172) solid 1px;
+}
+
+
+/***** second portion of form below *****/
+
+.container {
+    display: flex;
+    /*border: none;*/
+}
+
+.inside-container {
+    justify-content: center;
+}
+
+.newsletter {
+    padding-top: 40px;
+    padding-bottom: 20px;
+    font-size: 30px;
+}
+
+.newsletter-format {
+    padding-top: 75px;
+    padding-bottom: 25px;
+    font-size: 30px;
+}
+
+input::placeholder {
+    padding-left: 60px;
+}
+
+ ::placeholder {
+    font-style: italic;
+}
+
+.other-topics {
+    padding-top: 50px;
+}
+
+textarea {
+    max-width: 50%;
+    border: none;
+    border-radius: 20px;
+    background: rgb(212, 212, 212);
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 7px;
+    display: inline-block;
+    padding-bottom: 30px;
+}
+
+button {
+    width: 50%;
+    border-radius: 100px;
+    padding-top: 35px;
+    padding-bottom: 55px;
+    background-color: rgb(50, 168, 168);
+    font-size: 20px;
+    text-align: center;
+    display: inline-block;
+    height: 38px;
+    color: white;
+}
+
+.copy {
+    text-align: left;
+    color: lightgray;
+    padding-left: 125px;
+    padding-top: 15px;
+}
+
+
+/********************
+ ***** Qureies ******
+ *******************/
+
+@media (min-width: 768px) {
+    .container,
+    .center {
+        display: inline-block;
+    }
+}
